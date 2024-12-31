@@ -11,11 +11,12 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "//github.com/nouranatef57/reactproject.git",
+  "homepage": "https://nouranatef57.github.io/reactproject",
   "dependencies": {
     "gh-pages": "^6.2.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "slide": "^1.1.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

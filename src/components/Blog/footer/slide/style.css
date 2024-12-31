@@ -1,0 +1,22 @@
+.slide .box {
+display: flex !important;
+
+}
+.slide .img {
+    width: 350px;
+    height: 350px;
+}
+.slide .text {
+    width : 50% ;
+    padding : 60px 0 70px 30px ;
+}
+.slick-dots li button::after {
+    font-size: 40px;
+}
+/*_____CaerdTwo____*/
+.CardTwo.slide .box:nth-child(even){
+    flex-direction: row-reverse;
+}
+.CardTwo.slide .img {
+    padding: 10px;
+}

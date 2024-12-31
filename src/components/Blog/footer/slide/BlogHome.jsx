@@ -1,5 +1,6 @@
 
-import slide from "./slide"
+import CardTwo from "../../CardTwo"
+import Slide from "./slide"
 
 const BlogHome = () => {
     const data = [
@@ -16,13 +17,13 @@ const BlogHome = () => {
 
         }
     ]
-  return (
+return (
     <>
-      <section className="Home">
+    <section className="Home">
         <div className="left-content">{
-            data.map((value)=> {
+            data.map((value , index)=> {
                 return (
-                    <div className='content'>
+                    <div key={index} className="content">
                     <div className='logo'>
                         <h1>M</h1>
                     </div>
@@ -44,15 +45,19 @@ const BlogHome = () => {
                     </div>
                     </div>
                 )
-            })
-        } </div>
-        <div className="right-content"> 
-        <slide/>
+            })}
         </div>
-      </section>
+    <div className="right-content"> 
+        <Slide/>
+        
+        <card/>
+        <CardTwo/>
+        <footer/>
+        </div>
+    </section>
 
     </>
-  )
+)
 }
 
 export default BlogHome
