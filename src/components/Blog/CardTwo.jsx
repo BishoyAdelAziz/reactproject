@@ -1,5 +1,4 @@
-import Sdata from "./sdata"
-import "../slide/style.css";
+import { Sdata } from "./footer/slide/sdata";
 const CardTwo = () => {
   return (
     <div className="CardTwo-top-slide">
@@ -21,4 +20,3 @@ const CardTwo = () => {
   );
 };
 export default CardTwo;
-
